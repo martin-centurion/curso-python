@@ -32,8 +32,10 @@ print(texto[7:])
 #agregar un paso/salto - Saltea las posiciones de una cadena de texto
 print(texto[0:10:2])
 
-# Indices negativos - Uso de indices negativos
-print(texto[-9:0]) # Comienza 9 posiciones antes del final
+# Uso de indices negativos
+print(texto[-9:0]) # Comienza 9 posiciones antes del final hasta el final
 
-#
+# Invertir una cadena
+print(texto[::-1])
 
+# Funciones cadenas 

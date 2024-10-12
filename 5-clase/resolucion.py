@@ -18,4 +18,3 @@ costo_total = litros_consumidos * costo_por_litro
 # SALIDA - Litros consumidos y el precio final
 print(f"...: {litros_consumidos} 1")
 print(f"... : $")
-
