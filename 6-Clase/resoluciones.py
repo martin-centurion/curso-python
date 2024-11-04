@@ -46,3 +46,8 @@ elif cantidad_productos >= 3 and cantidad_productos < 5:
 else:
     descuento = 0
     
+monto_descuento = monto_final * descuento
+monto_final_con_descuento = monto_final - monto_descuento
+
+print(f'El monto total de aplicar descuento es: ${monto_final_con_descuento}') 
+    
