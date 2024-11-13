@@ -4,7 +4,11 @@ condicion = True
 indice = 0
 
 while condicion:
-    eleccion = int(input('Si quieres agregar un producto a la lista ingresa 1, Si desea ver la nuevamente la lista ingrese 2, si desea salir ingrese 3: '))
+    print('\nMenú de Productos')
+    print('1. Agrega un Producto')
+    print('2. Ver Productos')
+    print('3. Salir')
+    eleccion = int(input('Seleccione una opción: '))
     if eleccion == 1:
         prod_agregar = input('Ingrese el nombre del producto que desea agregar: ')
         cant_agregar = int(input('Ingrese la cantidad del producto que desea agregar: '))
